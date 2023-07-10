@@ -1,0 +1,80 @@
+/* Common shared styles */
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/* Header related styles */
+.header {
+    background-color: rgba(229, 84, 115, 0.10);
+    background-image: url(../images/pngwing\ 10.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, top left;
+}
+
+.banner {
+    padding: 50px 240 0px 1045;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.banner .banner-flower {
+    max-width: 635px;
+    max-height: 800px;
+
+}
+
+.banner-content {
+    margin-left: 240px;
+
+}
+
+.banner-title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    max-width: 708px;
+    margin-top: 197px;
+
+
+}
+
+.banner-description {
+    max-width: 634px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.btn-primary {
+    background-color: #E55473;
+    border-radius: 8px;
+    padding: 20px 43px;
+    border: 0px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 167px;
+}
+
+/* First section styles */
+.first {
+    text-align: center;
+}
+.first-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 178px;
+    
+}
+.first-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 22px;
+    font-weight: 400;
+    display: flex;
+    width: 594px;
+    margin-left: auto;
+    margin-right: auto;
+}
