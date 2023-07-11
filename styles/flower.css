@@ -271,6 +271,116 @@ main section {
     margin-right: auto;
     margin-top: 48px;
 }
-.fourth-image-one, .fourth-image-two, .fourth-image-three{
+
+.fourth-image-one,
+.fourth-image-two,
+.fourth-image-three {
     margin-right: 24px;
 }
+
+/* Fifth section styles */
+.fifth-container {
+    background-color: lightgoldenrodyellow;
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    background-position: bottom right, top left;
+    max-height: 620px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    gap: 186px;
+}
+
+.fifth-content {
+    text-align: center;
+    margin-top: 230px;
+    margin-left: 395px;
+    margin-bottom: 162px;
+}
+
+.fifth-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.fifth-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    width: 400px;
+}
+
+.fifth-table-container {
+    max-width: 318px;
+    max-height: 420px;
+    padding-right: 429px;
+}
+
+td {
+    border: 2px solid black;
+    padding: 10px 20px;
+}
+
+tr {
+    color: blue;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+/* Sixth section styles */
+.sixth {
+    background-image: url(../images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 449px;
+}
+
+.sixth-content {
+    text-align: center;
+}
+
+.sixth-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 122px;
+    margin-bottom: 10px;
+}
+
+.sixth-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+.email {
+    background-color: #FFF;
+    border-radius: 8px;
+    width: 700px;
+    height: 64px;
+    margin-right: 16px;
+}
+
+form {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+    align-items: center;
+}
+.btn-secondary {
+    background-color: #E55473;
+    border-radius: 8px;
+    width: 150px;
+    height: 64px;
+    display: flex;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 31px;
+}
+/* Footer related styles  */
