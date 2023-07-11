@@ -357,6 +357,7 @@ tr {
     font-weight: 400;
     margin-bottom: 48px;
 }
+
 .email {
     background-color: #FFF;
     border-radius: 8px;
@@ -372,6 +373,7 @@ form {
     justify-content: center;
     align-items: center;
 }
+
 .btn-secondary {
     background-color: #E55473;
     border-radius: 8px;
@@ -383,4 +385,48 @@ form {
     font-weight: 700;
     padding: 18px 31px;
 }
+
 /* Footer related styles  */
+.footer-container {
+    background-color: #111010;
+    height: 449px;
+
+
+}
+
+.footer-title {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 128px;
+    padding-bottom: 24px;
+}
+
+span {
+    color: white;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    width: 625px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 32px;
+}
+
+small {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    width: 355px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 128px;
+}
