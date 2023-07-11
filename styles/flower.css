@@ -1,52 +1,38 @@
-/* Common shared styles */
 body {
     font-family: 'Lato', sans-serif;
 }
-
-/* Header related styles */
 .header {
     background-color: rgba(229, 84, 115, 0.10);
     background-repeat: no-repeat;
     background-position: bottom right, top left;
 }
-
 .banner {
     padding: 50px 240 0px 1045;
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
-
 .banner .banner-flower {
     max-width: 635px;
     max-height: 800px;
     padding-right: 240px;
-
 }
-
 .banner-content {
     margin-left: 240px;
-
 }
-
 .banner-title {
     color: #272727;
     font-size: 80px;
     font-weight: 800;
     max-width: 708px;
     margin-top: 197px;
-
-
 }
-
 .banner-description {
     max-width: 634px;
     color: rgba(39, 39, 39, 0.60);
     font-size: 22px;
     font-weight: 400;
 }
-
 .btn-primary {
     background-color: #E55473;
     border-radius: 8px;
@@ -57,30 +43,22 @@ body {
     font-weight: 700;
     margin-bottom: 167px;
 }
-
-/* Main section styles */
 main {
     min-width: 1440px;
     margin: 0 auto;
 }
-
 main section {
     margin-top: 128px;
 }
-
-/* First section styles */
 .first {
     text-align: center;
 }
-
 .first-title {
     color: #272727;
     font-size: 40px;
     font-weight: 800;
     margin-top: 178px;
-
 }
-
 .first-description {
     color: rgba(39, 39, 39, 0.60);
     font-size: 22px;
@@ -90,20 +68,16 @@ main section {
     margin-left: auto;
     margin-right: auto;
 }
-
 .first-images .both {
     display: inline-block;
     border: 0px;
-
 }
-
 .first-images>.first-image-one,
 .first-image-two,
 .first-image-three {
     margin-left: auto;
     margin-right: auto;
 }
-
 .first-image-one {
     background-color: rgba(167, 33, 98, 0.15);
     border-radius: 300px 300px 0px 0px;
@@ -114,9 +88,7 @@ main section {
     max-width: 310px;
     max-height: 428px;
     padding: 110px 78px 0px 76px;
-
 }
-
 .first-image-two {
     background-color: rgba(5, 151, 160, 0.15);
     border-radius: 300px 300px 0px 0px;
@@ -126,9 +98,7 @@ main section {
     border-width: 464px;
     border-top: 538px;
     padding: 117px 47px 51px 47px;
-
 }
-
 .first-image-three {
     background-color: rgba(71, 125, 17, 0.15);
     border-radius: 300px 300px 0px 0px;
@@ -139,25 +109,22 @@ main section {
     max-height: 471px;
     padding: 67px 75px 0px 75px;
 }
-
 .underline {
     color: #272727;
     text-align: center;
     font-size: 24px;
     font-weight: 700;
-    display: inline-block;
+    display: flex;
     text-decoration: underline;
+    justify-content: center;
     margin-left: auto;
     margin-right: auto;
 }
-
-/* second section styles */
 .second {
     margin-left: auto;
     margin-right: auto;
     display: inline;
 }
-
 .second-part {
     background-color: pink;
     max-width: 700px;
@@ -166,7 +133,6 @@ main section {
     box-shadow: 20px 20px 20px 20px grey;
     border-radius: 200px;
 }
-
 .second-description {
     color: rgba(39, 39, 39, 0.60);
     font-size: 22px;
@@ -177,23 +143,19 @@ main section {
     margin-right: auto;
     text-align: left;
     padding-bottom: 5px;
-
 }
-
 .second-title {
-    color: #272727;
+    color: white;
     font-size: 40px;
     font-weight: 800;
     margin-top: 178px;
     padding-top: 60px;
     text-align: center;
 }
-
 .learn-more {
     text-align: center;
     padding-bottom: 0px;
 }
-
 /* third section style  */
 .third-container {
     background-color: rgba(229, 84, 115, 0.05);
@@ -207,49 +169,41 @@ main section {
     justify-content: space-between;
     gap: 186px;
 }
-
 .third-content {
     text-align: center;
     margin-top: 230px;
     margin-left: 395px;
     margin-bottom: 162px;
 }
-
 .third-title {
     color: #272727;
     font-size: 40px;
     font-weight: 800;
 }
-
 .third-description {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
     width: 594px;
 }
-
 .off {
     color: #E55473;
 }
-
 .third-flower {
     max-width: 318px;
     max-height: 420px;
     padding-right: 429px;
 }
-
 /* Fourth section style  */
 .fourth-container {
     text-align: center;
 }
-
 .fourth-title {
     color: #272727;
     text-align: center;
     font-size: 40px;
     font-weight: 800;
 }
-
 .fourth-description {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
@@ -260,7 +214,6 @@ main section {
     margin-left: auto;
     margin-right: auto;
 }
-
 .fourth-images {
     display: flex;
     justify-content: center;
@@ -271,14 +224,11 @@ main section {
     margin-right: auto;
     margin-top: 48px;
 }
-
 .fourth-image-one,
 .fourth-image-two,
 .fourth-image-three {
     margin-right: 24px;
 }
-
-/* Fifth section styles */
 .fifth-container {
     background-color: lightgoldenrodyellow;
     border-radius: 8px;
@@ -291,56 +241,46 @@ main section {
     justify-content: space-between;
     gap: 186px;
 }
-
 .fifth-content {
     text-align: center;
     margin-top: 230px;
     margin-left: 395px;
     margin-bottom: 162px;
 }
-
 .fifth-title {
     color: #272727;
     font-size: 40px;
     font-weight: 800;
 }
-
 .fifth-description {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
     width: 400px;
 }
-
 .fifth-table-container {
     max-width: 318px;
     max-height: 420px;
     padding-right: 429px;
 }
-
 td {
     border: 2px solid black;
     padding: 10px 20px;
 }
-
 tr {
     color: blue;
     font-size: 20px;
     font-weight: 800;
 }
-
-/* Sixth section styles */
 .sixth {
     background-image: url(../images/Rectangle\ 9.png);
     background-repeat: no-repeat;
     background-position: center;
     height: 449px;
 }
-
 .sixth-content {
     text-align: center;
 }
-
 .sixth-title {
     color: #272727;
     text-align: center;
@@ -349,7 +289,6 @@ tr {
     padding-top: 122px;
     margin-bottom: 10px;
 }
-
 .sixth-description {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
@@ -357,15 +296,15 @@ tr {
     font-weight: 400;
     margin-bottom: 48px;
 }
-
 .email {
     background-color: #FFF;
     border-radius: 8px;
+    font-size: 18px;
     width: 700px;
     height: 64px;
     margin-right: 16px;
+    padding-left: 22px;
 }
-
 form {
     display: flex;
     margin-right: auto;
@@ -373,7 +312,6 @@ form {
     justify-content: center;
     align-items: center;
 }
-
 .btn-secondary {
     background-color: #E55473;
     border-radius: 8px;
@@ -385,15 +323,12 @@ form {
     font-weight: 700;
     padding: 18px 31px;
 }
-
-/* Footer related styles  */
 .footer-container {
     background-color: #111010;
     height: 449px;
-
-
+    background-position: bottom right, top left;
+    
 }
-
 .footer-title {
     color: #E55473;
     font-size: 48px;
@@ -402,11 +337,9 @@ form {
     padding-top: 128px;
     padding-bottom: 24px;
 }
-
 span {
     color: white;
 }
-
 .footer-description {
     color: rgba(255, 255, 255, 0.90);
     text-align: center;
@@ -418,7 +351,6 @@ span {
     margin-left: auto;
     padding-bottom: 32px;
 }
-
 small {
     color: rgba(255, 255, 255, 0.40);
     text-align: center;
